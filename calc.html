@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="logo">
+        <h2><a href="home.html">TheCarAdvisor</a></h2>
+        
+    </div>
+    <div class="loan-calc">
+        
+    </div>
+    <div class="calcu">
+    <div class="box">
+        <h1>Loan Manager</h1>
+        <div class="cont">
+            
+            <form>
+                <div class="display">
+                <label for="prin">Principal Amt </label>
+                <input type="number" class="same" id="prin" >
+                <label class="inte" >Interest Rate</label>
+                <input type="number" class="same" id="int"><br><br></div>
+                <div class="display">
+                <label for="months">Tenure</label>
+                <input type="number" class="same" id="nom">
+                <label class="date">Date of Loan</label>
+                <input type="date" class="same" id="date">
+                </div>
+                <input type="button" id="submit" value="Calculate">
+                <div class="first">
+                    <label>Interest Amount</label>
+                </div>
+                <p id="out1" class="output"></p>
+                <div id="dueam">
+                    <label for="">Due Amount</label>
+                </div>
+                <p id="out2" class="output"></p>
+                <p id="out3" class="install"></p>
+
+              </form>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
