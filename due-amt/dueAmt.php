@@ -120,6 +120,7 @@
             <?php if ($successMessage): ?>
                 <div class='message'>
                     <p><?php echo $successMessage; ?></p>
+                    <a href='javascript:self.history.back()'><button class='btn'>Go Back</button>";
                 </div>
             <?php endif; ?>
 
