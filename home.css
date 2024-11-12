@@ -1,0 +1,460 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('https://fonts.googleapis.com/css?family=Poppins');
+}
+@font-face {
+  font-family: 'Oswald';
+  src: url(https://fonts.gstatic.com/s/oswald/v53/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUZiZQ.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'DM Sans';
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRR232VGM.woff2) format('woff2');
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+   background-color: #f0f6f6;
+   /* height: 50px; */
+}
+.logo {
+    flex: 1;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Oswald';
+}
+.navbar {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar li {
+    margin: 0 15px;
+    
+}
+li :hover{
+  color: red;
+}
+.navbar button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.buttons {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.buttons-apply button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: #68b4dd;
+    color: white;
+    border-color: #8fc2dd;
+}
+
+.buttons-calc button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.buttons-calc :hover{
+  color: black;
+  transition-delay: 50ms;
+}
+
+.buttons-apply :hover{
+  background-color: white;
+  color: black;
+  transition-delay: 50ms;
+}
+
+
+body {
+    font-family:'DM Sans';
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #d1e9f6;
+    color: #333;
+}
+
+.center-text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.center-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.center-text p {
+    font-size: 18px;
+    color: #666;
+}
+.line {
+  width: 75%;
+  border: none;
+  height: 2px; /* Adjust the height of the line */
+  background-color: black; /* Change color as needed */
+  margin: 20px auto; /* Center the line */
+}
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+.about-text {
+    flex: 1;
+    margin-right: 20px;
+    padding-left: 15px;
+}
+.about-text h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.about-text p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+}
+.about-image {
+    flex: 1;
+}
+.about-image img {
+    width: 60%;
+    margin-left:10rem;
+    border-radius: 25px;
+    /* height: auto; */
+}
+.bottom-image {
+    text-align: left;
+    margin-bottom: 40px;
+    margin-left: 80px;
+
+    
+}
+.bottom-image img {
+    width: 40%;
+    height:15rem;
+    border-radius: 30rem 30rem 0rem 0;
+}
+
+.about
+{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+
+
+.card {
+    border: 2px solid black;
+    /* padding: 20px; */
+    margin: 10px;
+    display: flex;
+    width: 60%;
+    margin-left: 20rem;
+    height: 20rem;
+    
+  }
+  
+  .image {
+    height: 20rem;
+    overflow: hidden;
+    width: 100%;
+    padding: 0%;
+  }
+  
+  .image img {
+    width: 450px;
+    height: 100%;
+    object-fit: cover;
+  }
+  .img3{
+    width: 1000px;
+  }
+  .content {
+    padding: 10px;
+  }
+  
+  .views, .heart {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .heart i {
+    color: red;
+  }
+
+
+  .services {
+    margin-top: 40px;
+    padding: 2rem;
+    background-color: #fefae0;
+  }
+
+  .services h2
+  {
+    text-align: center;
+  }
+  
+  .services ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  
+  .services li {
+    /* border: 1px solid #ccc; */
+    margin-bottom: 20px;
+    margin-left: 10rem;
+    padding: 20px;
+    display: flex;
+    border-left: 5px solid;
+    justify-content: space-between;
+  }
+  
+  .services h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .services p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .services .price {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .services .book-now {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+
+
+
+  .testimonials {
+    border-top: 2px solid black;
+    background-color: #faedce;
+    margin: 0;
+    margin-top: 20px;
+    padding: 36px;
+  }
+  
+  .testimonial-container {
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+  }
+  
+  .testimonial {
+    /* border: 1px solid #ccc; */
+    padding: 20px;
+    width: 300px; /* Adjust width as needed */
+    margin-bottom: 20px;
+    margin-top: 5rem;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+
+  .testimonials span
+  {
+    /* padding: 6rem;
+    position: relative; */
+    /* position: relative; */
+    width: 5%;
+    /* margin-bottom: 5rem; */
+  }
+  
+  .testimonial p {
+    text-align: left;
+  }
+  
+  .testimonial-info {
+    text-align: center;
+    font-style: italic;
+  }
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 10px;
+    margin-left: 20rem;
+    background-color: rgb(218, 214, 170)
+}
+
+form label {
+    margin: 1rem 0 0.5rem;
+}
+#contact h2{
+    padding: 10px;
+}
+#contact{
+  color: #000000;
+    padding: 20px;
+    background-color: #faedce;
+    border-top: 2px solid black;
+    padding-bottom: 25px;
+}
+
+
+form input, form textarea, form button {
+    padding: 0.5rem;
+    margin: 0.2rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 97%;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem;
+    margin: auto;
+
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #000000;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 9px;
+}
+
+.about-text,
+.about-image,
+.bottom-image,
+.card,
+.services,
+.testimonials,
+.contact {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.filter-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  justify-content:right;
+  
+}
+
+.filter-container select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.car-container {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.car-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  width: 100%;
+  overflow: hidden;
+  display: none; /* Hide by default */
+  margin: 1rem;
+}
+
+.car-item img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #ddd;
+}
+
+.car-body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.car-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.car-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.car-info span {
+  font-weight: bold;
+}
+
+.car-footer {
+  margin-top: 12px;
+}
+
+.car-footer p {
+  margin-bottom: 4px;
+  /* bottom: 3rem; */
+}

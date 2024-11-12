@@ -1,0 +1,409 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+   background-color: white;
+   height: 50px;
+  }
+  .logo {
+    flex: 1;
+  }
+  .navbar {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+  }
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .navbar li {
+    margin: 0 15px;
+  }
+  li :hover{
+  color: red;
+  }
+  .navbar button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .buttons {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  body {
+    font-family:cursive;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #D1E9F6;
+    color: #333;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .center-text {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .center-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  .center-text p {
+    font-size: 18px;
+    color: #666;
+  }
+  .line {
+  width: 75%;
+  border: none;
+  height: 2px; /* Adjust the height of the line */
+  background-color: black; /* Change color as needed */
+  margin: 20px auto; /* Center the line */
+  }
+  .about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .about-text {
+    flex: 1;
+    margin-right: 20px;
+  }
+  .about-text h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  .about-text p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+  }
+  .about-image {
+    flex: 1;
+  }
+  .about-image img {
+    width: 60%;
+    margin-left:10rem;
+    /* height: auto; */
+  }
+  .bottom-image {
+    text-align: left;
+    margin-bottom: 40px;
+    
+  }
+  .bottom-image img {
+    width: 50%;
+    height:15rem;
+    border-radius: 30rem 30rem 0rem 0;
+  }
+  
+  .about
+  {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 100px;
+    
+  }
+  
+  
+  .card {
+    border: 2px solid black;
+    /* padding: 20px; */
+    margin: 10px;
+    display: flex;
+    width: 60%;
+    margin-left: 20rem;
+    height: 20rem;
+    
+  }
+  
+  .image {
+    height: 20rem;
+    overflow: hidden;
+    width: 100%;
+    padding: 0%;
+  }
+  
+  .image img {
+    width: 450px;
+    height: 100%;
+    object-fit: cover;
+  }
+  .img3{
+    width: 1000px;
+  }
+  .content {
+    padding: 10px;
+  }
+  
+  .views, .heart {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .heart i {
+    color: red;
+  }
+  
+  
+  .services {
+    margin-top: 40px;
+    padding: 2rem;
+    background-color: #FEFAE0;
+  }
+  
+  .services h2
+  {
+    text-align: center;
+  }
+  
+  .services ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  
+  .services li {
+    /* border: 1px solid #ccc; */
+    margin-bottom: 20px;
+    margin-left: 10rem;
+    padding: 20px;
+    display: flex;
+    border-left: 5px solid;
+    justify-content: space-between;
+  }
+  
+  .services h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .services p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .services .price {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .services .book-now {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  
+  .testimonials {
+    /* text-align: left; */
+  
+    background-color: #FAEDCE;
+    margin: 0;
+    margin-top: 3rem;
+    padding: 15px;
+  }
+  
+  .testimonial-container {
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+  }
+  
+  .testimonial {
+    /* border: 1px solid #ccc; */
+    padding: 20px;
+    width: 300px; /* Adjust width as needed */
+    margin-bottom: 20px;
+    margin-top: 5rem;
+  }
+  
+  .testimonials span
+  {
+    /* padding: 6rem;
+    position: relative; */
+    /* position: relative; */
+    width: 5%;
+    /* margin-bottom: 5rem; */
+  }
+  
+  .testimonial p {
+    text-align: left;
+  }
+  
+  .testimonial-info {
+    text-align: center;
+    font-style: italic;
+  }
+  
+  
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 10px;
+    margin-left: 20rem;
+    background-color: white
+  }
+  
+  form label {
+    margin: 1rem 0 0.5rem;
+  }
+  #contact h2{
+    padding: 10px;
+  }
+  #contact{
+    padding: 10px;
+    background-color: #FAEDCE;
+    border-top: 2px solid black;
+  }
+  
+  
+  form input, form textarea, form button {
+    padding: 0.5rem;
+    margin: 0.2rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 97%;
+  }
+  
+  form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.7rem;
+  }
+  
+  form button:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    margin-top: 1rem;
+    
+  }
+  .about-text,
+  .about-image,
+  .bottom-image,
+  .services,
+  .card,
+  .testimonials
+  .filter {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+  .is-visible {
+    opacity: 1;
+    transform: translateY(0);
+    /* width: 60%; */
+  }
+
+
+
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .filter-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .filter-container select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  .car-container {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .car-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+    overflow: hidden;
+    display: none; /* Hide by default */
+  }
+
+  .car-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+  }
+
+  .car-body {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .car-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+
+  .car-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+
+  .car-info span {
+    font-weight: bold;
+  }
+
+  .car-footer {
+    margin-top: 12px;
+  }
+
+  .car-footer p {
+    margin-bottom: 4px;
+  }
